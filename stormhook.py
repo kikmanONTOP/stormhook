@@ -35,7 +35,7 @@ print(Fore.CYAN + ".....")
 
 async def send_messages(webhook_url, count):
     for i in range(count):
-        message_content = f"@everyone DOWNLOAD THIS TOOL https://github.com/kikmanONTOP/stormhook" + spam_message
+        message_content = f"@everyone DOWNLOAD THIS TOOL https://github.com/kikmanONTOP/stormhook " + spam_message
         
         requests.post(webhook_url, json={"content": message_content})
         
